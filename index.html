@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Digital Portfolio - Naan Mudhalvan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Digital Portfolio</h1>
+    <p>By [Your Name] - Naan Mudhalvan</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a passionate learner participating in the Naan Mudhalvan program. I love building web projects and exploring new technologies.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <label>HTML</label>
+      <div class="progress"><div class="bar" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill">
+      <label>CSS</label>
+      <div class="progress"><div class="bar" style="width: 80%;"></div></div>
+    </div>
+    <div class="skill">
+      <label>JavaScript</label>
+      <div class="progress"><div class="bar" style="width: 70%;"></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This website showcases my skills and projects as part of the Naan Mudhalvan initiative.</p>
+    </div>
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>A simple to-do list app using JavaScript to manage daily tasks.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Digital Portfolio | Naan Mudhalvan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
